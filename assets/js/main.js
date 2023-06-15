@@ -25,4 +25,5 @@ function openModal() {
   myModal.show();
 }
 
-setTimeout(openModal, 2500);
+// setTimeout(openModal, 2500);
+openModal();
