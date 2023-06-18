@@ -23,6 +23,9 @@ function openModal() {
     keyboard: false,
   });
   myModal.show();
+  document.getElementsByClassName("wrap_hero__ticker")[0].style.visibility =
+    "visible";
+  document.body.style.paddingTop = "40px";
 }
 
 setTimeout(openModal, 2500);
