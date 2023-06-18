@@ -33,6 +33,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:700|Roboto:400,400i,700&display=swap"
 		rel="stylesheet">
 	<style>
+		body {
+			padding-top: 40px;
+		}
+
 		.modal-body {
 			background-color: black;
 		}
@@ -52,6 +56,23 @@
 		.intro-2 {
 			font-size: 13px;
 		}
+
+		.wrap_hero__ticker {
+			background: linear-gradient(40deg, var(--bs-indigo), var(--bs-teal));
+
+			position: fixed;
+			z-index: 1;
+			top: 0;
+			left: 0;
+			right: 0;
+		}
+
+		.hero__ticker {
+			padding: 12px 32px;
+			line-height: 1.35;
+			font-weight: 500;
+			text-align: center;
+		}
 	</style>
 	<!-- FontAwesome JS-->
 	<script defer src="assets/fontawesome/js/all.min.js"></script>
@@ -62,6 +83,14 @@
 </head>
 
 <body>
+	<div class="wrap_hero__ticker">
+		<div class="hero__ticker">
+			<a onclick="return true;" href="https://pay.hotmart.com/R83191732C?off=rerljtxq" class="hotmart-fb"
+				data-bs-dismiss="modal" style="color: #ecf0f1;">
+				Limited-time sale! Get your 49% off now →</a>
+		</div>
+	</div>
+	</div>
 	<header class="header">
 		<div class="branding">
 			<div class="container-fluid position-relative py-3">
@@ -236,6 +265,7 @@
 		</div><!--//container-->
 	</section><!--//content-section-->
 
+
 	<section id="audience-section" class="audience-section py-5">
 		<div class="container">
 			<h2 class="section-heading text-center mb-4">Who This Template Is For</h2>
@@ -320,7 +350,7 @@
 	<script src="assets/plugins/popper.min.js"></script>
 	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 	<script src="assets/plugins/smoothscroll.min.js"></script>
-
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-477229313"></script>
 	<script src="assets/js/main.js"></script>
 
 </body>
